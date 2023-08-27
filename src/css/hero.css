@@ -1,0 +1,43 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.hero img {
+    width: 40%;
+}
+
+.hero .hero-info {
+    max-width: 800px;
+    padding: 10px;
+}
+
+.hero .hero-info h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 40px;
+}
+
+.hero .hero-info p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin: 30px 120px;
+}
+
+.hero .hero-info button {
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--blue-inside-call-to-action-gradient);
+    border: none;
+    padding: 12px 80px;
+    border-radius: 15px;
+    color: var(--white);
+    font-weight: 700;
+}

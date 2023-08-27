@@ -9,7 +9,7 @@
 .header .links-header {
     display: flex;
     letter-spacing: 2px;
-    gap: 50px;
+    gap: 23px;
 }
 
 .header .links-header a {
