@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 60px;
+    height: 100px;
+}
+
+.links-header {
+    display: flex;
+    gap: 50px;
+}
+
+@media(max-width: 600px) {
+    .header {
+        padding: 0 35px;
+    }
+    .header img {
+        width: 100px;
+    }
+
+    .header .links-header {
+        gap: 20px;
+    }
+}
