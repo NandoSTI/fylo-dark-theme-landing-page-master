@@ -2,8 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 60px 60px;
+    padding: 76px 80px;
     height: 100px;
+}
+
+.header img {
+    width: 180px;
 }
 
 .header .links-header {
