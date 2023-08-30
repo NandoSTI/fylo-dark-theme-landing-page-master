@@ -1,3 +1,71 @@
 footer {
     background: var(--footer-background);
+    padding: 300px 80px 80px 100px;
+    display: grid;
+    grid-template-columns: 4fr 4fr 1fr 1fr 2fr;
+    grid-template-rows: auto;
+    column-gap: 40px;
+    grid-template-areas: 
+    "logo logo logo logo logo"
+    "location contact links others social"
+    ;
+}
+
+.footer-logo {
+    grid-area: logo;
+    margin-bottom: 60px;
+}
+
+.footer-location {
+    grid-area: location;
+    display: grid;
+    grid-template-columns: 5% 95%;
+}
+
+.footer-location span {
+    padding-left: 35px;
+}
+
+.footer-contact {
+    grid-area: contact;
+    margin-left: 90px;
+}
+
+.footer-contact p {
+    margin-bottom: 10px;
+}
+
+.footer-contact img {
+    margin-right: 24px;
+    vertical-align: middle;
+}
+
+.footer-links {
+    grid-area: links;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.footer-links a {
+    margin-bottom: 20px;
+}
+
+.footer-others {
+    grid-area: others;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.footer-others a {
+    margin-bottom: 20px;
+}
+
+.footer-social {
+    grid-area: social;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-social i {
+    font-size: 25px;
 }
