@@ -33,3 +33,24 @@
     vertical-align: text-top;
 }
 
+@media(max-width: 375px) {
+    .productive {
+        flex-direction: column;
+        padding: 0 25px;
+    }
+
+    .img-productive img {
+        width: 100%;
+    }
+
+    .productive .text-productive h2 {
+        font-size: 18px;
+    }
+
+    .productive .text-productive p {
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+}
+
