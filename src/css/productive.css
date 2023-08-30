@@ -1,0 +1,35 @@
+.productive {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 0 100px;
+}
+
+.productive .text-productive :not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.productive .text-productive  h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.productive .text-productive P {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.productive .text-productive .link {
+    align-items: center;
+    color: var(--cyan-inside-call-to-action-gradient);
+    border-bottom: 1px solid var(--cyan-inside-call-to-action-gradient);
+    font-weight: 700;
+}
+
+.productive .text-productive .link img {
+    vertical-align: text-top;
+}
+
