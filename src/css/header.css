@@ -1,4 +1,5 @@
 .header {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,7 +37,7 @@
   }
     
   .header a:hover::before {
-    background-color: #FFF;
+    background-color: var(--cyan-inside-call-to-action-gradient);
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(.8);
@@ -52,6 +53,22 @@
     }
 
     .header .links-header {
+        font-size: 12px;
         gap: 20px;
+    }
+}
+
+@media(max-width: 600px) {
+    .header {
+        padding: 0 30px;
+    }
+
+    .header img {
+        width: 100px;
+    }
+
+    .header .links-header {
+        font-size: 12px;
+        gap: 10px;
     }
 }

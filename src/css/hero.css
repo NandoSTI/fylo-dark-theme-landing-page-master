@@ -3,7 +3,11 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    min-height: 100vh;
+    width: 100%;
     gap: 50px;
+    background: var(--intro-and-email-sign-up-background) url(../images/bg-curvy-desktop.svg) bottom no-repeat;
+    background-size: 100% 270px;
 }
 
 .hero img {
@@ -35,7 +39,7 @@
 
 .hero .hero-info button {
     font-family: 'Raleway', sans-serif;
-    background-color: var(--blue-inside-call-to-action-gradient);
+    background: linear-gradient(to right, var(--cyan-inside-call-to-action-gradient), var(--blue-inside-call-to-action-gradient));
     color: var(--white);
     font-weight: 700;
     border: none;
@@ -45,7 +49,7 @@
     border-radius: 27px;
 }
 
-@media(max-width: 450px) {
+@media(max-width: 425px) {
     .hero {
         padding: 35px;
     }
@@ -67,4 +71,30 @@
         line-height: 25px;
         margin-bottom: 40px;
     }
+}
+
+@media(max-width: 375px) {
+    .hero {
+        min-height: 86vh;
+        padding: 35px;
+    }
+
+    .hero img {
+        width: 302px;
+        height: 222px;
+    }
+
+    .hero .hero-info h1 {
+        font-size: 20px;
+        line-height: 33px;
+        margin-bottom: 20px;
+    }
+
+    .hero .hero-info p {
+        font-size: 11.5px;
+        margin: 0 auto;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+
 }

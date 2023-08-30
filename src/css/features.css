@@ -1,0 +1,21 @@
+.features {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 90px 150px;
+    margin: 130px 0;
+    padding: 0 280px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.feature h3 {
+    margin: 25px 0 12px 0;
+    font-family: 'Raleway', sans-serif;
+}
