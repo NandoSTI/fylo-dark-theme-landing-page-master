@@ -55,4 +55,31 @@ input[type = "email"] {
     border-radius: 58px;
 }
 
+@media(max-width: 375px) {
+    .sing-up {
+        text-align: center;
+        padding: 40px 25px;
+        bottom: -175px;
+    }
+
+    .sing-up h2 {
+        font-size: 20px;
+    }
+
+    .sing-up p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    input[type = "email"],
+    input[type = "submit"] {
+        width: 280px;
+        margin: 0px 0 25px 0;
+    }
+}
+
 
