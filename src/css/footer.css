@@ -69,3 +69,53 @@ footer {
 .footer-social i {
     font-size: 25px;
 }
+
+@media(max-width: 375px) {
+    footer {
+        grid-template-columns: 1fr;
+        padding: 280px 27px 42px 27px;
+        column-gap: 0;
+        row-gap: 20px;
+        grid-template-areas:
+        "logo"
+        "location"
+        "contact"
+        "links"
+        "others"
+        "social"
+        ;
+    }
+
+    .footer-contact {
+        margin: 30px 0 30px 0;
+    }
+
+    .footer-links {
+        margin-bottom: 30px;
+    }
+
+    .footer-others {
+        margin-bottom: 30px;
+    }
+
+    .footer-social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .footer-social i {
+        font-size: 20px;
+    }
+
+    .footer-social i::before {
+        width: 32px;
+        height: 32px;
+        border: 1px solid var(--white);
+        line-height: 32px;
+        border-radius: 50%;
+        display: block;
+        text-align: center;
+    }
+}
