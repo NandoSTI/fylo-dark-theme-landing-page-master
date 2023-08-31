@@ -44,7 +44,7 @@
     font-size: 8px;
 }
 
-@media(max-width: 375px) {
+@media(max-width: 450px) {
     .testimonials {
         grid-template-columns: 1fr;
         padding: 100px 15px 30px 15px;

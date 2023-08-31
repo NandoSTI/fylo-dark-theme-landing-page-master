@@ -55,7 +55,7 @@ input[type = "email"] {
     border-radius: 58px;
 }
 
-@media(max-width: 375px) {
+@media(max-width: 450px) {
     .sing-up {
         text-align: center;
         padding: 40px 25px;

@@ -20,7 +20,7 @@
     font-family: 'Raleway', sans-serif;
 }
 
-@media(max-width: 375px) {
+@media(max-width: 450px) {
     .features {
         grid-template-columns: 1fr;
         gap: 87px 0;
